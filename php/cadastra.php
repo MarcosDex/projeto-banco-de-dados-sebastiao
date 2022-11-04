@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +12,26 @@ session_start();
 </head>
 
 <body>
-    <form action="../bd/cadastra.php" method="POST">
+    <form action="../php/getdata.php" method="POST">
 
+        <div class="input-container">
+            <input type="text" id="nome" name="nome" class="text-input" placeholder="Digite Seu Nome" autocomplete="off" required />
+        </div>
+        <br>
+        <div class="input-container">
+            <input type="email" id="email" name="email" class="text-input" placeholder="Digite Seu Email" autocomplete="off" required />
+        </div>
+        <br>
+        <div class="input-container">
+            <input type="date" id="data" name="data" class="text-input" autocomplete="off" required />
+        </div>
+        <br />
+        <div class="input-container">
+            <input type="password" id="senha" name="senha" class="text-input" placeholder="Digite Sua Senha" autocomplete="off" required />
+        </div>
+        <br>
+        <input class="btcadastrar" id="submit" type="submit" name="submit" value="Cadastrar">
+        <br />
     </form>
 </body>
 
