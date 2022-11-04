@@ -16,12 +16,12 @@ logo depois iremos a este caminho: wamp64\bin\apache\apache2.4.51\conf\extra e e
 </VirtualHost>
 ```
 <img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/desafio-estagio/blob/main/assets/vh.png">
-...........................
-```Abrimos então a pasta do wamp e vamos em www: ```
+
+``` Abrimos então a pasta do wamp e vamos em www: ```
 
 <img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/desafio-estagio/blob/main/assets/www.png">
 
-```Logo apos iremos criar uma pasta:```
+``` Logo apos iremos criar uma pasta: ```
 
 <img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/desafio-estagio/blob/main/assets/Screenshot_1.png">
 
