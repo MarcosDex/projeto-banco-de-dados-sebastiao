@@ -24,6 +24,10 @@
             </div>
             <br>
             <div class="input-container">
+                <input type="number" id="cpf" name="cpf" class="text-input" placeholder="Digite Seu CPF: formatado aceitado - xxx.xxx.xxx-xx" autocomplete="off" required />
+            </div>
+            <br>
+            <div class="input-container">
                 <input type="email" id="email" name="email" class="text-input" placeholder="Digite Seu Email" autocomplete="off" required />
             </div>
             <br>
@@ -32,7 +36,7 @@
             </div>
             <br />
             <div class="input-container">
-                <input type="password" name="password" id="password" class="text-input" data-toggle="password" placeholder="Digite Uma Senha">
+                <input type="password" name="senha" id="password" class="text-input" data-toggle="password" placeholder="Digite Uma Senha">
                 <div class="input-container">
                 </div>
             </div>
