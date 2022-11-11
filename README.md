@@ -76,7 +76,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="" width="100px;" alt=""/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Deus</b>
         </sub>
       </a>
     </td>
