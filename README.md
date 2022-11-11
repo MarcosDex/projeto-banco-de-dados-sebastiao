@@ -74,7 +74,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="" width="100px;" alt=""/><br>
         <sub>
           <b>Iuri Silva</b>
         </sub>
@@ -99,6 +99,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
- 
-
-[⬆ Voltar ao topo](#Projeto Banco de dados - E-Comerce de roupas)<br>
