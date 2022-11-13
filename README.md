@@ -26,30 +26,29 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+* Você instalou a versão mais recente de `<PHP / Wamp/Xamp / php: 7.4.26, Wamp/Xamp: 2021/2022 build stable>`
+* Você tem uma máquina `<Windows>`
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Projeto Banco de Dados Sebastião
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o Projeto Banco de Dados Sebastião, siga estas etapas:
 
-Linux e macOS:
+Linux e macOS: ## SEM SUPORTE
 ```
 <comando_de_instalação>
 ```
 
 Windows:
 ```
-<comando_de_instalação>
+<git clone https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao>
 ```
 
-## ☕ Usando projeto-banco-de-dados-sebastiao
+## ☕ Usando Projeto Banco de Dados Sebastião
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar Projeto Banco de Dados Sebastião, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+<Wamp: Crie uma virtual host na pasta drivers do system32 e depois outra pasta com o alias para a pasta www do wamp. Xamp: Basta abrir o arquivo index.php e ser feliz >
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
@@ -76,23 +75,23 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="" width="100px;" alt=""/><br>
         <sub>
-          <b>Deus</b>
+          <b>Irthyell Muniz</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="http://pm1.narvii.com/6975/66f03e973f0f797cfa3a11f8be6a8d32ceeb3f00r1-696-650v2_00.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>MakotoNoxx</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://github.com/MarcosDex/Portfol.io/blob/main/images/c9c66c8b-c742-4691-bd1f-ff116ec6b5b9.jpeg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>WalkerAway</b>
         </sub>
       </a>
     </td>
