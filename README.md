@@ -81,7 +81,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="https://github.com/MakotoNoxx">
-        <img src="" width="100px;" alt="Foto do MakotoNoxx"/><br>
+        <img src="https://cdn.discordapp.com/avatars/183340355360522240/b2363c6848e5954140ebb39efa837c01.webp?size=128" width="100px;" alt="Foto do MakotoNoxx"/><br>
         <sub>
           <b>MakotoNoxx</b>
         </sub>
