@@ -10,7 +10,6 @@
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
 ### Ajustes e melhorias
 
@@ -18,7 +17,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Estabelecer conexão e registros para o banco de dados (MYSQL)
 - [x] Implementar uma area de usuarios para registro e login
-- [ ] Interface do usuario
+- [x] Interface do usuario
 - [ ] Interface pós login
 - [ ] Concluido
 
@@ -32,11 +31,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ## 🚀 Instalando Projeto Banco de Dados Sebastião
 
 Para instalar o Projeto Banco de Dados Sebastião, siga estas etapas:
-
-Linux e macOS: ## SEM SUPORTE
-```
-<comando_de_instalação>
-```
 
 Windows:
 ```
@@ -53,9 +47,9 @@ Para usar Projeto Banco de Dados Sebastião, siga estas etapas:
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para Shien do Camelodromo
+## 📫 Contribuindo para Lojas Desamericanas
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com Projeto Banco de dados Sebastião Rogerio, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -72,18 +66,18 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/IrthyellMuniz">
-        <img src="http://pm1.narvii.com/6975/66f03e973f0f797cfa3a11f8be6a8d32ceeb3f00r1-696-650v2_00.jpg" width="100px;" alt="Foto do Irthyell Muniz"/><br>
+      <a href="https://github.com/Aline097">
+        <img src="https://images-ext-2.discordapp.net/external/asiKmh3Px52GgIHzrIdJrq6eTNGGq0RfwbuvgeXlA8U/https/pbs.twimg.com/media/FS646o-UcAE3luS.jpg%3Alarge?width=862&height=676" width="125px;" alt="Foto da Aline Almeida"/><br>
         <sub>
-          <b>Irthyell Muniz</b>
+          <b>Aline Almeida</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/MakotoNoxx">
-        <img src="https://cdn.discordapp.com/avatars/183340355360522240/b2363c6848e5954140ebb39efa837c01.webp?size=128" width="100px;" alt="Foto do MakotoNoxx"/><br>
+      <a href="https://github.com/IrthyellMuniz">
+        <img src="https://camo.githubusercontent.com/5bf05e4419d993dc0b91333c3099814882bf9a65e69cb0dc0c9c2b66d90bce30/687474703a2f2f706d312e6e61727669692e636f6d2f363937352f3636663033653937336630663739376366613361313166386265366138643332636565623366303072312d3639362d36353076325f30302e6a7067" width="100px;" alt="Foto do Irtyhell"/><br>
         <sub>
-          <b>Thobias José Soares</b>
+          <b>Irthyell Muniz</b>
         </sub>
       </a>
     </td>
@@ -96,10 +90,10 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
        <td align="center">
-      <a href="#">
-        <img src="" width="100px;" alt=""/><br>
+      <a href="https://github.com/MakotoNoxx">
+        <img src="https://camo.githubusercontent.com/2d0bff933e3b6276b234c0751c863a71e3581c639adf8fd6b1da55fdc2b3e619/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f617661746172732f3138333334303335353336303532323234302f62323336336336383438653539353431343065626233396566613833376330312e776562703f73697a653d313238" width="100px;" alt=""/><br>
         <sub>
-          <b>...</b>
+          <b>Thobias José Soares</b>
         </sub>
       </a>
     </td>
