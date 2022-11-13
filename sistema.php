@@ -1,3 +1,15 @@
+<?php
+    session_start();
+    if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
+      unset($_SESSION['email']);
+      unset($_SESSION['senha']);
+      header('Location: ../php/login.php');
+    } else {
+      $logado = $_SESSION['email'];
+    }
+
+
+    ?>
 <!DOCTYPE html>
 <html lang="br">
 
@@ -26,19 +38,22 @@
           <a class="nav-link"></a>
         </div>
       </div>
+      
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Area de Usabilidade</a>
+        <a href="javascript:void(0)" class="dropbtn"><?php  echo "Bem vindo $logado"; ?></a>
         <div class="dropdown-content">
-          <a href="../php/cadastra.php">Registrar</a>
-          <a href="../php/login.php">Login</a>
+          <a href="../php/perfil.php">Meu Perfil</a>
+          <a href="../php/sair.php">Deslogar</a>
         </div>
       </li>
       </ul>
     </div>
+
+    
     
   </nav>
   <section class="teams" id="teams">
-    
+ 
   </section>
 
 </body>

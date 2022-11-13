@@ -25,9 +25,9 @@
             $sql = "INSERT INTO usuarios (id, nome, cpf, email, data, senha) VALUES (NULL,'$nome', '$cpf','$email', '$data', '$senha')";
 
             if (mysqli_query($conexao, $sql)) {
-                header('location: ../index.php');
+                header('location: ../php/login.php');
             } else {
-                echo "Não foi possivel estabelecer conexao com o banco de dados! Verifique seu servidor local...";
+                echo "$email já cadastrado, tente outro email! <a href=\"../php/cadastra.php\">Tentar novamente</a>";
             }
 
             ?>

@@ -19,11 +19,11 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']
     if (mysqli_num_rows($resultado) < 1) {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: ../php/login.php');
+        header('Location: ../index.php');
     } else {
         $_SESSION['email'] = $email;
         $_SESSION['senha'] = $senha;
-        header('Location: ../index.php');
+        header('Location: ../sistema.php');
     }
 } else {
     //se o usuario n preencher todos ou nenhum campo n tem acesso ao sistema e retorna pra area de login novamente
