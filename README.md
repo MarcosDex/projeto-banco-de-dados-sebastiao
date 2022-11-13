@@ -104,7 +104,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
        <td align="center">
-      <a href="#">
+      <a href="https://github.com/WendelAgra">
         <img src="https://pps.whatsapp.net/v/t61.24694-24/305588114_1561675434245921_7968151310615141536_n.jpg?ccb=11-4&oh=01_AdRTrrwP9QwKFAL5EqQCdvXPYBC8Pz5BLiBSG_d7MCJTqQ&oe=637E18CA" width="100px;" alt=""/><br>
         <sub>
           <b>Wendel Vinicius</b>
