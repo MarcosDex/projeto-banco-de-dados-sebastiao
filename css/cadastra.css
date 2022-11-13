@@ -58,16 +58,6 @@ html {
   opacity: 0.5;
   transition: all 0.3s;
 }
-select {
-  padding: 0.8rem;
-  width: 115%;
-  height: 100%;
-  border: 2px solid #1d00fb;
-  background: #000000;
-  border-radius: 5px;
-  font-size: 18px;
-  color: #fff;
-}
 .btcadastrar {
   padding: 0.8rem;
   width: 100%;
