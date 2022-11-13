@@ -91,7 +91,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/MarcosDex">
         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cfbc5316-5df8-4a30-b355-8b4ae4f38fd6/degyrzc-b6109f1e-4d06-4d54-8a89-fdd24d979d32.jpg/v1/fill/w_800,h_800,q_75,strp/zeke_yeager_by_caro_oliveira_degyrzc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvY2ZiYzUzMTYtNWRmOC00YTMwLWIzNTUtOGI0YWU0ZjM4ZmQ2XC9kZWd5cnpjLWI2MTA5ZjFlLTRkMDYtNGQ1NC04YTg5LWZkZDI0ZDk3OWQzMi5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hnD90bBqHH1CJ7iRdWMIX5_HS6ziX7iXzvdb72sbs2w" width="100px;" alt="Foto do WalkerAway"/><br>
         <sub>
-          <b>Marcantonio Santos Silva</b>
+          <b>Marcantonio Santos</b>
         </sub>
       </a>
     </td>
