@@ -73,7 +73,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="" width="100px;" alt=""/><br>
+        <img src="http://pm1.narvii.com/6975/66f03e973f0f797cfa3a11f8be6a8d32ceeb3f00r1-696-650v2_00.jpg" width="100px;" alt=""/><br>
         <sub>
           <b>Irthyell Muniz</b>
         </sub>
@@ -81,7 +81,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="http://pm1.narvii.com/6975/66f03e973f0f797cfa3a11f8be6a8d32ceeb3f00r1-696-650v2_00.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>MakotoNoxx</b>
         </sub>
@@ -89,7 +89,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://github.com/MarcosDex/Portfol.io/blob/main/images/c9c66c8b-c742-4691-bd1f-ff116ec6b5b9.jpeg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://github.com/MarcosDex/Portfol.io/blob/main/images/c9c66c8b-c742-4691-bd1f-ff116ec6b5b9.jpeg" width="50px;" alt="Foto do Steve Jobs"/><br>
         <sub>
           <b>WalkerAway</b>
         </sub>
