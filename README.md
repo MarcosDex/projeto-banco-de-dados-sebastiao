@@ -1,12 +1,12 @@
-# Projeto Banco de dados - E-Comerce de roupas
+# Projeto Banco de dados - E-Commerce de roupas
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
@@ -26,30 +26,29 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+* Você instalou a versão mais recente de `<PHP / Wamp/Xamp / php: 7.4.26, Wamp/Xamp: 2021/2022 build stable>`
+* Você tem uma máquina `<Windows>`
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Projeto Banco de Dados Sebastião
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o Projeto Banco de Dados Sebastião, siga estas etapas:
 
-Linux e macOS:
+Linux e macOS: ## SEM SUPORTE
 ```
 <comando_de_instalação>
 ```
 
 Windows:
 ```
-<comando_de_instalação>
+<git clone https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao>
 ```
 
-## ☕ Usando projeto-banco-de-dados-sebastiao
+## ☕ Usando Projeto Banco de Dados Sebastião
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar Projeto Banco de Dados Sebastião, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+<Wamp: Crie uma virtual host na pasta drivers do system32 e depois outra pasta com o alias para a pasta www do wamp. Xamp: Basta abrir o arquivo index.php e ser feliz >
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
@@ -73,26 +72,42 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
+      <a href="https://github.com/IrthyellMuniz">
+        <img src="http://pm1.narvii.com/6975/66f03e973f0f797cfa3a11f8be6a8d32ceeb3f00r1-696-650v2_00.jpg" width="100px;" alt="Foto do Irthyell Muniz"/><br>
+        <sub>
+          <b>Irthyell Muniz</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MakotoNoxx">
+        <img src="https://cdn.discordapp.com/avatars/183340355360522240/b2363c6848e5954140ebb39efa837c01.webp?size=128" width="100px;" alt="Foto do MakotoNoxx"/><br>
+        <sub>
+          <b>Thobias José Soares</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MarcosDex">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cfbc5316-5df8-4a30-b355-8b4ae4f38fd6/degyrzc-b6109f1e-4d06-4d54-8a89-fdd24d979d32.jpg/v1/fill/w_800,h_800,q_75,strp/zeke_yeager_by_caro_oliveira_degyrzc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvY2ZiYzUzMTYtNWRmOC00YTMwLWIzNTUtOGI0YWU0ZjM4ZmQ2XC9kZWd5cnpjLWI2MTA5ZjFlLTRkMDYtNGQ1NC04YTg5LWZkZDI0ZDk3OWQzMi5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hnD90bBqHH1CJ7iRdWMIX5_HS6ziX7iXzvdb72sbs2w" width="100px;" alt="Foto do WalkerAway"/><br>
+        <sub>
+          <b>Marcantonio Santos</b>
+        </sub>
+      </a>
+    </td>
+       <td align="center">
       <a href="#">
         <img src="" width="100px;" alt=""/><br>
         <sub>
-          <b>Deus</b>
+          <b>...</b>
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+       <td align="center">
+      <a href="https://github.com/WendelAgra">
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/305588114_1561675434245921_7968151310615141536_n.jpg?ccb=11-4&oh=01_AdRTrrwP9QwKFAL5EqQCdvXPYBC8Pz5BLiBSG_d7MCJTqQ&oe=637E18CA" width="100px;" alt=""/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
+          <b>Wendel Vinicius</b>
         </sub>
       </a>
     </td>
