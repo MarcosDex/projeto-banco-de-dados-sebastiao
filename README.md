@@ -1,4 +1,4 @@
-# Projeto Banco de dados - E-Comerce de roupas
+# Projeto Banco de dados - E-Commerce de roupas
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -6,7 +6,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
@@ -92,6 +92,22 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cfbc5316-5df8-4a30-b355-8b4ae4f38fd6/degyrzc-b6109f1e-4d06-4d54-8a89-fdd24d979d32.jpg/v1/fill/w_800,h_800,q_75,strp/zeke_yeager_by_caro_oliveira_degyrzc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvY2ZiYzUzMTYtNWRmOC00YTMwLWIzNTUtOGI0YWU0ZjM4ZmQ2XC9kZWd5cnpjLWI2MTA5ZjFlLTRkMDYtNGQ1NC04YTg5LWZkZDI0ZDk3OWQzMi5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hnD90bBqHH1CJ7iRdWMIX5_HS6ziX7iXzvdb72sbs2w" width="100px;" alt="Foto do WalkerAway"/><br>
         <sub>
           <b>WalkerAway</b>
+        </sub>
+      </a>
+    </td>
+       <td align="center">
+      <a href="#">
+        <img src="" width="100px;" alt=""/><br>
+        <sub>
+          <b>...</b>
+        </sub>
+      </a>
+    </td>
+       <td align="center">
+      <a href="#">
+        <img src="" width="100px;" alt=""/><br>
+        <sub>
+          <b>...</b>
         </sub>
       </a>
     </td>
