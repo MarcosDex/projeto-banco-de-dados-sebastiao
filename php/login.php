@@ -15,7 +15,10 @@
 <body>
     <section class="container">
         <form action="../php/getlogin.php" method="POST">
-
+            <div class="input-container">
+                <input type="text" id="nome" name="nome" class="text-input" placeholder="Digite Seu Nome" autocomplete="off" required />
+            </div>
+            <br>
             <div class="input-container">
                 <input type="email" id="email" name="email" class="text-input" placeholder="Digite Seu Email" autocomplete="off" required />
             </div>

@@ -4,6 +4,7 @@ session_start();
 if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])) {
     //se o usuario preencher todos os campos ele acessa o sistema
     include_once('../php/conexao.php');
+    $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
@@ -21,6 +22,7 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']
         unset($_SESSION['senha']);
         header('Location: ../index.php');
     } else {
+        $_SESSION['nome'] = $nome;
         $_SESSION['email'] = $email;
         $_SESSION['senha'] = $senha;
         header('Location: ../sistema.php');
