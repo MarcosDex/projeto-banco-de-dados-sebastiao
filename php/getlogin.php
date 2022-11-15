@@ -18,11 +18,11 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']
 
 
     if (mysqli_num_rows($resultado) < 1) {
+        unset($_SESSION['nome']);
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
         header('Location: ../index.php');
     } else {
-        $_SESSION['nome'] = $nome;
         $_SESSION['email'] = $email;
         $_SESSION['senha'] = $senha;
         header('Location: ../sistema.php');

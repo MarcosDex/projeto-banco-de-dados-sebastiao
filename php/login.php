@@ -15,22 +15,20 @@
 <body>
     <section class="container">
         <form action="../php/getlogin.php" method="POST">
+            <br>
             <div class="input-container">
-                <input type="text" id="nome" name="nome" class="text-input" placeholder="Digite Seu Nome" autocomplete="off" required />
+                <input type="email" id="email" name="email" class="text-input" placeholder="Digite Seu Email" autocomplete="off" />
             </div>
             <br>
             <div class="input-container">
-                <input type="email" id="email" name="email" class="text-input" placeholder="Digite Seu Email" autocomplete="off" required />
-            </div>
-            <br>
-            <div class="input-container">
-                <input type="password" name="senha" id="password" class="text-input" data-toggle="password" placeholder="Digite Uma Senha">
+                <input type="password" name="senha" id="password" class="text-input" data-toggle="password" placeholder="Digite Uma Senha" required>
                 <div class="input-container">
                 </div>
             </div>
             <br>
             <input class="btlogin" id="submit" type="submit" name="submit" value="Entrar na conta">
             <br />
+
         </form>
 </body>
 

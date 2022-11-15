@@ -1,11 +1,13 @@
 <?php
 session_start();
+include "php/conexao.php";
 if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
+  unset($_SESSION['nome']);
   unset($_SESSION['email']);
   unset($_SESSION['senha']);
   header('Location: ../php/login.php');
 } else {
-  $logadonome = $_SESSION['nome'];
+
   $logadoemail = $_SESSION['email'];
   $logadosenha = $_SESSION['senha'];
 }
@@ -28,7 +30,7 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
 <body>
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Unifalip Fyden</a>
+      <a class="navbar-brand" href="#">Lojas Desamericanas</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,9 +44,9 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
       </div>
 
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn"><?php echo "Bem vindo $logadonome" ?></a>
+        <a href="javascript:void(0)" class="dropbtn"><?php echo "Bem vindo $logadoemail" ?></a>
         <div class="dropdown-content">
-          <?php echo "<a href=\"../php/perfil.php?id=$logadoemail\">Meu Perfil</a>" ?>
+          <?php echo "<a href=\"../php/perfil.php?\">Meu Perfil</a>" ?>
           <a href="../php/sair.php">Deslogar</a>
         </div>
       </li>

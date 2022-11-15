@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#submit {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  text-justify: auto;
+}
+.input-container {
+  bottom: -5px;
+  left: 0px;
+  width: 250px;
+  position: relative;
+}
+.text-input {
+  padding: 0.8rem;
+  width: 100%;
+  height: 100%;
+  /*border: 2px solid #1d00fb; */
+  background: #000000;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s;
+  color: #fff;
+}
+.text-input::placeholder {
+  font-size: 16px;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.btcadastrar {
+  padding: 0.8rem;
+  width: 100%;
+  height: 20%;
+  border: 2px solid #1d00fb;
+  background: #00aaf9;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.btcadastrar:hover {
+  background-color: #00ff11;
+  color: black;
+  opacity: 50%;
+}
+.btn.btn-outline-danger {
+  padding: 0.8rem;
+  background-color: black;
+  position: relative;
+  height: 20%;
+  width: 100%;
+  right: -725%;
+  bottom: -10px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border: 2px solid #1d00fb;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  text-justify: auto;
+  outline: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+#avatar {
+  position: relative;
+  bottom: 560px;
+  right: -900px;
+}
+body {
+  background-image: url("../images/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#nome_perfil {
+  position: relative;
+  right: 130px;
+  bottom: 740px;
+}
+#cpf_perfil {
+  position: relative;
+  right: 90px;
+  bottom: 720px;
+}
+
+#email_perfil {
+  position: relative;
+  right: 119px;
+  bottom: 695px;
+}
+#datanasc_perfil {
+  position: relative;
+  right: 295px;
+  bottom: 670px;
+  font-size: 30px;
+}
+#senha_perfil {
+  position: relative;
+  right: 130px;
+  bottom: 640px;
+}
+#foto_perfil {
+  position: relative;
+  right: -940px;
+  bottom: 820px;
+  font-size: 30px;
+  background-color: #00aaf9;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid #1d00fb;
+  padding: 0.1rem;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
