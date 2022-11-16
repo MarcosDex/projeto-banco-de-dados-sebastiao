@@ -12,7 +12,12 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
   $logadosenha = $_SESSION['senha'];
 }
 
+$sql = "SELECT * FROM usuarios WHERE email = '$logadoemail'";
+$dados = mysqli_query($conexao, $sql);
 
+while ($line = mysqli_fetch_assoc($dados)) {
+  $nome = $line['nome'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="br">
@@ -44,7 +49,7 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
       </div>
 
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn"><?php echo "Bem vindo $logadoemail" ?></a>
+        <a href="javascript:void(0)" class="dropbtn"><?php echo "Bem vindo $nome" ?></a>
         <div class="dropdown-content">
           <?php echo "<a href=\"../php/perfil.php?\">Meu Perfil</a>" ?>
           <a href="../php/sair.php">Deslogar</a>
@@ -53,6 +58,18 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
       </ul>
     </div>
 
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
 
 
   </nav>
