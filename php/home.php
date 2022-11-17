@@ -1,7 +1,8 @@
 <?php
+session_start();
 include "../php/conexao.php";
 
-
+$logadoemail = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,8 +11,11 @@ include "../php/conexao.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Projeto Banco de Dados Sebastião</title>
 </head>
+
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
@@ -30,7 +34,7 @@ include "../php/conexao.php";
             </div>
 
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn"><?php echo "Bem vindo $nome" ?></a>
+                <a href="javascript:void(0)" class="dropbtn"><?php echo "Bem vindo $logadoemail" ?></a>
                 <div class="dropdown-content">
                     <?php echo "<a href=\"../php/perfil.php?\">Meu Perfil</a>" ?>
                     <a href="../php/sair.php">Deslogar</a>
@@ -38,6 +42,16 @@ include "../php/conexao.php";
             </li>
             </ul>
         </div>
+        </div>
+
+
+    </nav>
+    <section class="teams" id="teams">
+
+    </section>
+    <?php
+
+    ?>
 </body>
 
 </html>

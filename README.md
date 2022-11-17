@@ -1,4 +1,4 @@
-# Projeto Banco de dados - CRUD
+# Projeto Banco de dados - E-Commerce de roupas
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 
-<img src="https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao/blob/master/images/Screenshot_6.png" alt="exemplo imagem">
+<img src="exemplo-image.png" alt="exemplo imagem">
 
 
 ### Ajustes e melhorias
@@ -18,8 +18,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Estabelecer conexão e registros para o banco de dados (MYSQL)
 - [x] Implementar uma area de usuarios para registro e login
 - [x] Interface do usuario
-- [x] Interface pós login
-- [x] Concluido
+- [ ] Interface pós login
+- [ ] Concluido
 
 ## 💻 Pré-requisitos
 
