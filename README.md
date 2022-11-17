@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao/blob/master/images/Screenshot_6.png" alt="exemplo imagem">
 
 
 ### Ajustes e melhorias
