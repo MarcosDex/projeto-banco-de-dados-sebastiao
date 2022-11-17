@@ -32,6 +32,7 @@ while ($line = mysqli_fetch_assoc($dados)) {
   <title>Projeto Banco de Dados Sebastião</title>
 </head>
 
+
 <body>
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
@@ -41,7 +42,7 @@ while ($line = mysqli_fetch_assoc($dados)) {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="../php/home.php">Home</a>
           <a class="nav-link" href="#">Ofertas do dia</a>
           <a class="nav-link" href="#"></a>
           <a class="nav-link"></a>
@@ -57,18 +58,6 @@ while ($line = mysqli_fetch_assoc($dados)) {
       </li>
       </ul>
     </div>
-
-
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
     </div>
 
 

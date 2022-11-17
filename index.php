@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Unifalip Fyden</a>
+      <a class="navbar-brand" href="#">Lojas Desamericanas</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,10 +35,10 @@
       </li>
       </ul>
     </div>
-    
+
   </nav>
   <section class="teams" id="teams">
-    
+    <h1>Você precisa <a href="../php/cadastra.php">Criar uma conta</a> ou <a href="../php/login.php">Entrar em uma conta</a> Para ter acesso ao sistema!*-*
   </section>
 
 </body>

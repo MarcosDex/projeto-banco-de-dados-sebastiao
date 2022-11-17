@@ -15,6 +15,7 @@
 <body>
 
     <?php
+    # session_start();
     include "../php/conexao.php";
     include_once "../sistema.php";
 
@@ -85,7 +86,7 @@
                     <div class="modal-body">
                         <form action="../php/deletar.php" method="POST">
                             <p>Deseja realmente deletar este dado da existencia? //dados excluidos não podem ser restaurados//</p>
-                            <p>O dados a serem excluidos são: <b id="transformjs"><?php echo "$nome"; ?></b></p>
+                            <p>O dados a serem excluidos são:<b id="transformjs"><?php echo "$nome"; ?></b></p>
                             <p>Email: <b id="transformjs"><?php echo "$logadoemail"; ?></b></p>
                             <p>Cpf: <b id="transformjs"><?php echo "$cpf"; ?></b></p>
 

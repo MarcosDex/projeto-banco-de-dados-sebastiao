@@ -1,5 +1,7 @@
 <?php
+// Inicia a sessão
+session_start();
+
+// Destrói a sessão
 session_destroy();
-unset($_SESSION['email']);
-unset($_SESSION['senha']);
 header('Location: ../index.php');
