@@ -1,4 +1,4 @@
-# Projeto Banco de dados - E-Commerce de roupas
+# Projeto Banco de dados - CRUD
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -18,8 +18,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Estabelecer conexão e registros para o banco de dados (MYSQL)
 - [x] Implementar uma area de usuarios para registro e login
 - [x] Interface do usuario
-- [ ] Interface pós login
-- [ ] Concluido
+- [x] Interface pós login
+- [x] Concluido
 
 ## 💻 Pré-requisitos
 
