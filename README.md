@@ -5,7 +5,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 
 <img src="https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao/blob/master/images/Screenshot_6.png" alt="exemplo imagem">
@@ -35,7 +34,8 @@ Para instalar o Projeto Banco de Dados Sebastião, siga estas etapas:
 
 Windows:
 ```
-<git clone https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao>
+git init
+git clone https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao
 ```
 
 ## ☕ Usando Projeto Banco de Dados Sebastião
@@ -43,10 +43,42 @@ Windows:
 Para usar Projeto Banco de Dados Sebastião, siga estas etapas:
 
 ```
-<Wamp: Crie uma virtual host na pasta drivers do system32 e depois outra pasta com o alias para a pasta www do wamp. Xamp: Basta abrir o arquivo index.php e ser feliz >
+WamppServer:
+Primeiro vamos cria a vh, basta ir em Windows -> system32 -> drivers -> etc -> hosts (aconselho notepad ++ por ser mais organizado que o bloco de notas):
+Adicionamos isso ao arquivo da host 127.0.0.1 locadora.com (locadora é o nome da pasta que criarei mais pra frente)
+logo depois iremos a este caminho: wamp64\bin\apache\apache2.4.51\conf\extra e então ira adicionar esta linha de codigo ao escopo:
+<VirtualHost *:80>
+  ServerName locadora.com
+  ServerAlias localhost
+  DocumentRoot C:\wamp64\www\locadora <escolhe o lugar onde salvou o wamp (no meu caso é no disco C)>
+  <Directory "C:\wamp64\www\locadora"> <escolhe o lugar onde salvou o wamp (no meu caso é no disco C)>
+    Options +Indexes +Includes +FollowSymLinks +MultiViews
+    AllowOverride All
+    Require local
+  </Directory>
+</VirtualHost>
 ```
+<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/desafio-estagio/blob/main/assets/vh.png">
 
+```Abrimos então a pasta do wamp e vamos em www:```
 
+<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/desafio-estagio/blob/main/assets/www.png">
+
+```Logo apos iremos criar uma pasta (locadora):```
+
+<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/desafio-estagio/blob/main/assets/Screenshot_1.png">
+
+## Por ultimo basta abrir no navegador locadora.com (ele ira cair no index).
+------------------------------------------------------------------------------
+```
+Xampp:
+Basta ir na pasta do Xampp -> HTDOCS -> Criar uma nova pasta
+```
+<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/Estudar.io/blob/main/Screenshot_7.png">
+
+## Agora só inserir os arquivos que desejar e acessar o navegador com o endereço do nome da pagina + o nome do arquivo desejado: lojasdesamericanas/index.php
+
+<img hight="300" width="700" alt="GIF" align="center" src="https://github.com/MarcosDex/Estudar.io/blob/main/Screenshot_8.png">
 
 ## 📫 Contribuindo para Lojas Desamericanas
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
