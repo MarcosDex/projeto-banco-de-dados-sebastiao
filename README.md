@@ -1,4 +1,4 @@
-# Projeto Banco de dados - E-Commerce de roupas
+# Projeto Banco de dados - E-Commerce (Lojas Desamericanas)
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/projeto-banco-de-dados-sebastiao?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://github.com/MarcosDex/projeto-banco-de-dados-sebastiao/blob/master/images/Screenshot_6.png" alt="exemplo imagem">
 
 
 ### Ajustes e melhorias
@@ -18,14 +18,15 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Estabelecer conexão e registros para o banco de dados (MYSQL)
 - [x] Implementar uma area de usuarios para registro e login
 - [x] Interface do usuario
-- [ ] Interface pós login
-- [ ] Concluido
+- [x] Interface pós login
+- [x] CRUD Finalizado
+- [x] Concluido
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<PHP / Wamp/Xamp / php: 7.4.26, Wamp/Xamp: 2021/2022 build stable>`
+* Você instalou a versão mais recente de `<PHP / Wamp/Xamp / php: 7.4.26(php3/4), Wamp/Xamp: 2021/2022 build stable>`
 * Você tem uma máquina `<Windows>`
 
 ## 🚀 Instalando Projeto Banco de Dados Sebastião
@@ -45,7 +46,7 @@ Para usar Projeto Banco de Dados Sebastião, siga estas etapas:
 <Wamp: Crie uma virtual host na pasta drivers do system32 e depois outra pasta com o alias para a pasta www do wamp. Xamp: Basta abrir o arquivo index.php e ser feliz >
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+
 
 ## 📫 Contribuindo para Lojas Desamericanas
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
