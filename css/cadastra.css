@@ -3,6 +3,11 @@ html {
   width: 100%;
   overflow: hidden;
 }
+body {
+  background-image: url("../images/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 .container {
   background: linear-gradient(-45deg, #fa3a00, #fa0000, #000000, #a200ff);
   background-size: 400% 400%;
@@ -72,4 +77,18 @@ html {
   background-color: #00ff11;
   color: black;
   opacity: 50%;
+}
+#logar {
+  position: relative;
+  bottom: -680px;
+  right: -600px;
+  color: rgba(red, green, blue, alpha);
+  text-decoration: none;
+}
+#logar:hover {
+  position: relative;
+  bottom: -680px;
+  right: -600px;
+  color: white;
+  text-decoration: none;
 }

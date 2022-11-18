@@ -13,7 +13,7 @@
     <div id="container">
         <div class="row">
             <?php
-            //neste arquivo ele recebe as informações do post e transcreve para uma variavel pela variavel $_POST['name']. O insert into manda os arquivos para o banco de dados. O if query($conexao,$sql) verifica se ta tudo certo se tiver o header:location manda para a index.php que é main page
+            //neste arquivo ele recebe as informações do cadastro. O insert into manda os arquivos para o banco de dados. O if query($conexao,$sql) verifica se ta tudo certo se tiver o header:location manda para a login.php que é main page
             include "../php/conexao.php";
             $nome = $_POST['nome'];
             $cpf = $_POST['cpf'];

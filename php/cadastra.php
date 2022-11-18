@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- area de cadastro basica com o methodo post para poder enviar os dados digitados para outro arquivo (getdata)-->
     <section class="container">
         <form action="../php/getdata.php" method="POST">
 
@@ -41,6 +42,8 @@
             <input class="btcadastrar" id="submit" type="submit" name="submit" value="Criar meu cadastro">
             <br />
         </form>
+    </section>
+    <a href="../php/login.php" id="logar">Já possui uma conta? Entre agora mesmo!
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 </script>

@@ -13,7 +13,7 @@
     <div id="container">
         <div class="row">
             <?php
-            //nesse escopo os arquivos são pegos pelo POST do editar.php e armazenados em uma variavel post, o sql daqui manda os valores atualizados para a index.php que é onde esta a tabela
+            //nesse escopo os arquivos são pegos pelo POST do perfil.php e armazenados em uma variavel post, o sql daqui manda os valores atualizados para a perfil.php que é onde esta o READ da nossa operação
             include "../php/conexao.php";
             $id = $_POST['id'];
             $nome = $_POST['nome'];
@@ -26,12 +26,12 @@
             $sql = "UPDATE usuarios SET nome = '$nome', email = '$email', cpf = '$cpf', data = '$data', senha = '$senha' WHERE id = $id";
 
             if (mysqli_query($conexao, $sql)) {
-                header('location: ../php/login.php');
+                header('location: ../php/perfil.php');
             } else {
                 echo "Não foi possivel realizar a troca de dados... Por favor consulte um administrador!";
             }
 
             ?>
-            <a href="../index.php">Back</a>
+
         </div>
     </div>

@@ -42,8 +42,7 @@ while ($line = mysqli_fetch_assoc($dados)) {
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="../php/home.php">Home</a>
-          <a class="nav-link" href="#">Ofertas do dia</a>
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="../php/lojafront.php">Lojinha do KIN</a>
           <a class="nav-link"></a>
         </div>
       </div>
@@ -64,9 +63,6 @@ while ($line = mysqli_fetch_assoc($dados)) {
   <section class="teams" id="teams">
 
   </section>
-  <?php
-
-  ?>
 </body>
 
 

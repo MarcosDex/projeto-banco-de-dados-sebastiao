@@ -15,25 +15,23 @@
 <body>
 
     <?php
-    # session_start();
+    //Aqui não precisou especificar por que ele ja esta tomando um include do sistema.php (que ja possui as informações de post e de proteção ao arquivo pre-login)
     include "../php/conexao.php";
     include_once "../sistema.php";
 
     $sql = "SELECT * FROM usuarios WHERE email = '$logadoemail'";
-
     $dados = mysqli_query($conexao, $sql);
 
     ?>
 
     <section class="container">
         <?php
-
+        #Este laço while verifica as linhas da tabela no banco com os seguintes nomes.
         while ($line = mysqli_fetch_assoc($dados)) {
             $id = $line['id'];
             $nome = $line['nome'];
             $cpf = $line['cpf'];
             $data = $line['data'];
-            #$email = $line['email'];
         }
         ?>
 
@@ -75,33 +73,33 @@
         <h1 id="datanasc_perfil">Data de Nascimento:</h1>
         <h1 id="senha_perfil">Senha:</h1>
         <button id="foto_perfil">Alterar foto</button>
+    </section>
+    <div class="modal fade" id="modalconfirm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmar Exclusão <b>PERMANENTE</b>?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="../php/deletar.php" method="POST">
+                        <p>Deseja realmente deletar este dado da existencia? //dados excluidos não podem ser restaurados//</p>
+                        <p>O dados a serem excluidos são:<b id="transformjs"><?php echo "$nome"; ?></b></p>
+                        <p>Email: <b id="transformjs"><?php echo "$logadoemail"; ?></b></p>
+                        <p>Cpf: <b id="transformjs"><?php echo "$cpf"; ?></b></p>
 
-        <div class="modal fade" id="modalconfirm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmar Exclusão <b>PERMANENTE</b>?</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="../php/deletar.php" method="POST">
-                            <p>Deseja realmente deletar este dado da existencia? //dados excluidos não podem ser restaurados//</p>
-                            <p>O dados a serem excluidos são:<b id="transformjs"><?php echo "$nome"; ?></b></p>
-                            <p>Email: <b id="transformjs"><?php echo "$logadoemail"; ?></b></p>
-                            <p>Cpf: <b id="transformjs"><?php echo "$cpf"; ?></b></p>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                        <input type="hidden" name="id" id="identidar" value="">
-                        <input type="hidden" name="email" id="identidaremail" value="">
-                        <input type="submit" class="btn btn-danger" value="Confirmar!">
-                        <input type="hidden" name="id" value="<?php echo $id; ?>">
-                        </form>
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <input type="hidden" name="id" id="identidar" value="">
+                    <input type="hidden" name="email" id="identidaremail" value="">
+                    <input type="submit" class="btn btn-danger" value="Confirmar!">
+                    <input type="hidden" name="id" value="<?php echo $id; ?>">
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
 </body>

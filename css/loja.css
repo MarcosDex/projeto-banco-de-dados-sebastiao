@@ -20,9 +20,9 @@ li a,
 }
 
 /*li a:hover,
-.dropdown:hover .dropbtn {
-  
-}*/
+  .dropdown:hover .dropbtn {
+    
+  }*/
 
 li.dropdown {
   display: inline-block;
@@ -62,4 +62,24 @@ li.dropdown {
 .services .title::before,
 .teams .title::before {
   background: #fff;
+}
+.palmeiras {
+  position: relative;
+  bottom: -9px;
+  right: -110px;
+}
+#valorcamisa {
+  position: relative;
+  right: -90px;
+}
+#valorcard {
+  position: relative;
+  right: -90px;
+}
+.cardlol {
+  position: relative;
+  right: -90px;
+}
+.fa-solidfa-cart-shopping {
+  color: blue;
 }
