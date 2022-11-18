@@ -19,6 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Interface do usuario
 - [x] Interface pós login
 - [x] CRUD Finalizado
+- [] Funcionalidade dos botões e criação do checkout de pagamento
 - [x] Concluido
 
 ## 💻 Pré-requisitos
